@@ -19,7 +19,7 @@ html, body {
 }
 .borda {
     border: 2px solid #EBBEA9;
-    border-radius: 10px;
+    border-radius: 2px;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -92,4 +92,38 @@ html, body {
     background:#00AB93;
     border-color: #00AB93;
     color: white;
+}
+.rodape {
+    text-align: center;
+    padding-top: 20px;
+}
+.btnProsseguir {
+    font-family: 'Roboto';
+    text-decoration: none;
+    color: white;
+    background-color: #00AB93;
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+/*Tela Final*/
+.fotoFundo {
+    text-align: center;
+    background-image: url(/imagens/fundoFinal.jpg);
+    background-size: cover;
+}
+.mascara2 {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    padding: 10px;
+}
+.fotoFinal {
+    margin-left: 15px;
+    margin-right: 15px;
+    border: 2px solid #EBBEA9;
 }
